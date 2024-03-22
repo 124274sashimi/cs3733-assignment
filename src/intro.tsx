@@ -16,7 +16,7 @@ function Intro() {
                 tellus sem. Praesent in cursus ex.
 
             </p>
-            <p>
+            <p style={{fontSize: 12}}>
                 In hac habitasse platea dictumst. Donec at blandit nulla. Pellentesque habitant
                 morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer
                 nunc ipsum, placerat vitae nisl a, auctor facilisis justo. Quisque porta, odio
