@@ -17,3 +17,76 @@ table {
   text-align: center;
   border-spacing: 10px;
 }
+
+.box1{
+  border: 5px solid #851972;
+  background-color: rgb(186, 167, 196);
+  padding: 25px 25px;
+  margin: 100px 100px;
+  /*height:  180px;*/
+  width: 180px;
+  display: inline-block;
+  text-align:  center;
+  transition: all ease-in-out;
+}
+.box1:hover{
+  transform: rotate(180deg);
+  background-color: #78c7ab;
+}
+.padding{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.title{
+  color: palevioletred;
+  text-align: center;
+}
+.title:hover{
+  transform: scale(130%);
+}
+
+.radioStyle{
+  border: 3px solid #130010;
+  /*background-color: var(--color);*/
+  /*background-color: rgb(231, 229, 234);*/
+  padding: 5px 5px;
+  margin: 10px 10px;
+  /*height:  150px;*/
+  width: 150px;
+  display: inline-block;
+  text-align:  center;
+}
+.radioStyle:hover{
+  transition: background-color;
+  background-color: #dccbdb;
+  transition-duration: initial;
+}
+
+.checkList{
+  background-color: #bba9e1;
+  padding: 30px 30px;
+  margin: 10%;
+  /*height:  150px;*/
+  /*width: 150px;*/
+  display: inline-block;
+  text-align: left;
+}
+
+.header{
+  border: 3px solid #130010;
+  padding: 2px 2px;
+  font-weight: bold;
+  background-color: rgb(145, 145, 145);
+  display: inline-block;
+  text-align:  center;
+}
+.header:hover{
+  transform: rotate(180deg);
+  background-color: #e2faf1;
+}
+
+
+input[type= radio], input[type = checkbox] {
+  transform: scale(1);
+}

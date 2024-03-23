@@ -28,6 +28,19 @@ function Intro() {
                 scelerisque ultrices mauris, eget egestas ante rutrum sit amet. Sed vitae malesuada
                 leo. Donec pulvinar ex ultricies, laoreet neque in, tempor massa.
             </p>
+
+
+            <div className="padding">
+                <p style={{textAlign: "center"}}>I am an Electrical and Computer Engineering with an interest in learning
+                    more about sensors and semiconductors. Passionate about design and increasing efficiency in
+                    everything I do. I am interested in a hardware design position, with previous experience in
+                    troubleshooting and system interfaces.</p>
+                <p style={{textAlign: "center"}}> I am passionate about arts and crafts. I grew up creating paintings,
+                    folding oragami, and making rainbow loom. I started a small crochet business on Etsy and am
+                    exploring a passion for sewing. </p>
+            </div>
+
+
         </>
     )
 }

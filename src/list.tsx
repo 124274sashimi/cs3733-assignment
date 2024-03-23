@@ -10,6 +10,33 @@ function List() {
                 <li>I've played in over 20 tournaments</li>
                 <li>I developed a tetris bot to find "optimal" play in tetris</li>
             </ul>
+
+            <article>
+                <div className="box1">
+                    <p style={{fontWeight: "bold"}}> Favorite Foods:</p>
+                    <ul style={{textAlign: "left"}}>
+                        <li> Tacos</li>
+                        <li> Chocolate</li>
+                        <li> Blackberries</li>
+                        <li> Red Apples</li>
+                        <li> Twix</li>
+                        <li> Soup</li>
+                    </ul>
+                </div>
+
+                <div className="box1">
+                    <p style={{fontWeight: "bold"}}> Pet Peeves:</p>
+                    <ul style={{textAlign: "left"}}>
+                        <li> Bad Posture</li>
+                        <li> Crocs</li>
+                        <li> Greezy Hair</li>
+                        <li> Being Ugly</li>
+                        <li> Sweatpants</li>
+                        <li> Mcdonalds</li>
+                    </ul>
+                </div>
+            </article>
+
         </>
     );
 }
